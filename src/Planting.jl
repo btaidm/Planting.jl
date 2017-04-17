@@ -65,6 +65,7 @@ function plant(m::RejectionPoissonDisk, poly::AbstractObject, o::AbstractObject;
             neighborhood = nearbyItems(np,radius(o),grid)
             points = final_list[filter!(x->x!=0,neighborhood)]
         end
+    end
 end
 
 
